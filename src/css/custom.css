@@ -1,0 +1,62 @@
+:root {
+  --color-white: #ffffff;
+  --color-strong-blue: #26336c;
+  --color-purple: #8677b5;
+  --color-pink: #d38fb9;
+  --color-yellow: #e7e000;
+  --color-green: #79bf87;
+  --color-blue: #3eb7ea;
+  --color-black: #000000;
+  --color-light-gray: #ededed;
+  --color-strong-gray: #d1d2d2;
+
+  /* Docusaurus theme tokens */
+  --ifm-color-primary: var(--color-strong-blue);
+  --ifm-color-primary-dark: #1f2a59;
+  --ifm-color-primary-darker: #1a244d;
+  --ifm-color-primary-darkest: #141b3b;
+  --ifm-color-primary-light: #344487;
+  --ifm-color-primary-lighter: #3f4f98;
+  --ifm-color-primary-lightest: #5867b1;
+
+  --ifm-code-font-size: 0.95rem;
+}
+
+html[data-theme="dark"] {
+  --ifm-background-color: #0f1115;
+  --ifm-background-surface-color: #161a22;
+  --ifm-color-primary: #7d89d6; /* versión clara del strong-blue */
+}
+
+/* Badges y componentes simples para docs */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--color-strong-gray);
+  border-radius: 999px;
+  background: var(--color-light-gray);
+  color: var(--color-black);
+  margin-right: 0.5rem;
+}
+
+/* Callouts con colores de marca */
+.alert--primary {
+  border-color: var(--color-strong-blue);
+}
+.alert--success {
+  border-color: var(--color-green);
+}
+.alert--warning {
+  border-color: var(--color-yellow);
+}
+.alert--info {
+  border-color: var(--color-blue);
+}
+
+/* Links con acento */
+a {
+  color: var(--ifm-color-primary);
+}
+a:hover {
+  opacity: 0.9;
+}

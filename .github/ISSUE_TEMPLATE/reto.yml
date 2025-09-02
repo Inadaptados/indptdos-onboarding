@@ -1,0 +1,32 @@
+name: Entrega de Reto
+description: Subir evidencias del reto diario
+
+body:
+  - type: input
+    id: modulo
+    attributes:
+      label: Módulo
+      placeholder: 04-next-react
+    validations:
+      required: true
+
+  - type: textarea
+    id: resumen
+    attributes:
+      label: Resumen de lo realizado
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidencias (capturas, enlaces a PR)
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Pasé linters/tests
+        - label: Subí PR antes de la hora límite
+        - label: Escribí bitácora
