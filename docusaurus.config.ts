@@ -32,6 +32,8 @@ const config: Config = {
       items: [
         { to: '/docs/00-bienvenida/', label: 'Inicio', position: 'left' },
         { to: '/docs/01-agil-ux/', label: 'Ágil & UX', position: 'left' },
+        { to: '/docs/02-scrum/', label: 'Scrum', position: 'left' },
+        { to: '/docs/03-secure-sdlc/', label: 'Secure SDLC', position: 'left' },
         { to: '/docs/04-next-react/', label: 'Next/React', position: 'left' },
         { to: '/docs/05-node-express/', label: 'Node/Express', position: 'left' },
         { to: '/docs/06-prompt-engineering/', label: 'IA aplicada', position: 'left' },

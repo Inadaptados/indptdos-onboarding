@@ -33,6 +33,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'secure-sdlc/index',
         'secure-sdlc/checklist-owasp',
+        'secure-sdlc/reto-security-audit',
       ],
     },
     {
