@@ -1,5 +1,5 @@
 ---
-id: index
+id: agil-ux-overview
 title: Ágil y UX centrado en el usuario
 slug: /01-agil-ux/
 ---

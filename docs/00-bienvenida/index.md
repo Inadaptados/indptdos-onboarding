@@ -1,5 +1,5 @@
 ---
-id: index
+id: bienvenida-overview
 title: Bienvenida
 slug: /00-bienvenida/
 ---

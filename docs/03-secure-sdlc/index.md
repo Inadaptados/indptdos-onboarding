@@ -1,5 +1,5 @@
 ---
-id: index
+id: secure-sdlc-overview
 title: Secure SDLC — Desarrollo Seguro
 slug: /03-secure-sdlc/
 sidebar_position: 3

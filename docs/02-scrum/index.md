@@ -1,5 +1,5 @@
 ---
-id: index
+id: scrum-overview
 title: Scrum en Indaptados
 slug: /02-scrum/
 ---
