@@ -74,6 +74,7 @@ const sidebars: SidebarsConfig = {
       label: '99 - Recursos',
       items: [
         'recursos/plantillas',
+        'recursos/biblioteca-aprendizaje',
       ],
     },
     {
